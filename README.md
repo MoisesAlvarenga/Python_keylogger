@@ -20,7 +20,7 @@ Este é um script em Python que implementa um keylogger simples, capaz de gravar
 
 ## Funcionamento
 
-O script inicia um listener para monitorar as teclas pressionadas pelo usuário. Cada tecla pressionada é armazenada em um arquivo de log (assets/.log). Quando o tempo definido em set_timer é atingido, o conteúdo do arquivo de log é lido, codificado e enviado para o chat do Telegram especificado pelo ID no arquivo assets/receptor.txt. Após o envio, o arquivo de log é limpo para começar a gravar novas teclas.
+O script inicia um listener para monitorar as teclas pressionadas pelo usuário. Cada tecla pressionada é armazenada em um arquivo de log (assets/.log). Quando o tempo definido (em minutos) no arquivo assets/.timer é atingido, o conteúdo do arquivo de log é lido, codificado e enviado para o chat do Telegram especificado pelo ID no arquivo assets/receptor.txt. Após o envio, o arquivo de log é limpo para começar a gravar novas teclas.
 
 O script continuará em execução indefinidamente, repetindo o processo de envio dos logs de acordo com o intervalo de tempo especificado.
 
