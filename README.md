@@ -7,6 +7,7 @@ Este é um script em Python que implementa um keylogger simples, capaz de gravar
 1. **Instale as bibliotecas necessárias:**
 
 ```bash
+pip install pynput requests
 ```
 2. pip install pynput requests
 
@@ -16,7 +17,7 @@ Este é um script em Python que implementa um keylogger simples, capaz de gravar
 
 5. Defina o intervalo de tempo (em minutos) para envio dos logs para o Telegram no arquivo .timer.
 
-Cole o código abaixo em um arquivo chamado keylogger.py:
+6. Cole o código abaixo em um arquivo chamado keylogger.py:
 
 ## Funcionamento
 
