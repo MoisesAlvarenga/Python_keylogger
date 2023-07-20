@@ -7,7 +7,7 @@ Este é um script em Python que implementa um keylogger simples, capaz de gravar
 1. **Instale as bibliotecas necessárias:**
 
 ```bash
-pip install pynput requests
+  pip install pynput
 ```
 2. pip install pynput requests
 
