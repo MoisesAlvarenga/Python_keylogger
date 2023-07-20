@@ -9,15 +9,14 @@ Este é um script em Python que implementa um keylogger simples, capaz de gravar
 ```bash
   pip install pynput
 ```
-2. pip install pynput requests
 
-3. Substitua 'YOUR_TOKEN_HERE' pela sua chave de API do bot do Telegram.
+2. Substitua 'YOUR_TOKEN_HERE' pela sua chave de API do bot do Telegram.
 
-4. Certifique-se de que o arquivo assets/receptor.txt contenha o ID do chat do Telegram para onde deseja enviar os logs.
+3. Certifique-se de que o arquivo assets/receptor.txt contenha o ID do chat do Telegram para onde deseja enviar os logs.
 
-5. Defina o intervalo de tempo (em minutos) para envio dos logs para o Telegram no arquivo .timer.
+4. Defina o intervalo de tempo (em minutos) para envio dos logs para o Telegram no arquivo .timer.
 
-6. Cole o código abaixo em um arquivo chamado keylogger.py:
+5. Cole o código abaixo em um arquivo chamado keylogger.py:
 
 ## Funcionamento
 
